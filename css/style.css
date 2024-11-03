@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(244, 244, 244);
+}
+ul{list-style: none;}
+a{
+    text-decoration: none;
+}
+.egy{
+    color: blueviolet;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+.elopcty:hover{
+    opacity: .7;
+}
+.elscah:hover{
+    transform: scale(1.05,1.05);
+}
+.elscah:hover .elt{
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+}
+.modal-backdrop{
+    position: absolute;
+    z-index: -1;
+}
+.elicon{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color:  rgb(8, 88, 88 );
+    font-size: 70px;
+}
+.elicon:hover{
+    color:  rgb(5, 122, 122);
+}
+.back{
+    background: url(../img/images-453.jpeg);
+}
+.elgap{
+   width: 350px;
+   position: relative;
+}
+@media (max-width:333px){
+    .elweds{margin: 0; padding: 0;width: 100%;}
+
+}
+.after::after{
+    position: absolute;
+    content: "";
+    width:0;
+    height:0 ;
+    top:0;
+    left: 0;
+    background-color: rgba(89, 197, 255, 0.5);
+    opacity: 0;
+    border-radius: 6px;
+}
+.after:hover::after{
+    width:100%  ;
+    height: 100%;
+    opacity: .5;
+    transition: 1.5s;
+}
+.after::before{
+    position: absolute;
+    content: "";
+    width:0;
+    height:0 ;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(89, 197, 255, 0.5);
+    opacity: 0;
+    border-radius: 6px;
+}
+.after:hover::before{
+    width:100%  ;
+    height: 100%;
+    opacity: .5;
+    transition: 1.5s;
+}
+.back2{
+    background: url(../img/47-115736-tourism-in-aswan-11.jpeg);
+}
+.elgap1{
+    width: 380px;
+    background-image: url(../img/zizo.jpg);
+    height: 500px;
+    background-size:cover ;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(116, 116, 116, 0.74);
+    top: 0;
+    left: 0;
+}
+.elgap1:hover{
+    transform: scale(.9,.9);
+    cursor: pointer;
+}
+.elgap1:hover .overlay{
+    background-color: rgba(23, 34, 70, 0.74);
+}
+.elgap2{
+    background-image: url(../img/WhatsApp\ Image\ 2024-10-31\ at\ 11.17.29_4deb6217.jpg);
+}
+.elgap3{
+    background-image: url(../img/WhatsApp\ Image\ 2024-09-05\ at\ 01.10.01_dace77eb.jpg.);
+}
+.cut{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 11% 100%);
+}
+.paernt{
+    background-image: linear-gradient(to right, rgb(246, 252, 255),rgb(235, 235, 235));
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 15px 15px rgb(245, 235, 255);
+}
+.line{
+    width: 70px;
+    height: 5px;
+}
+.paernt:hover .cut{
+    transform: scale(1.01,1.01);
+}
+.paernt:hover .line{
+    width: 100px  ;
+}
+@media (max-width:567px){
+    
+    .card-new{
+        margin-bottom: 10px !important;
+        height: 700px !important;
+        border-radius: 0px !important;
+    }
+    .news img{
+        height: 100% !important;
+        width:100% !important;
+        border-radius: 0px !important;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%) !important;
+        margin: 0 !important;
+        border-top-left-radius: 6px !important;  
+        border-top-right-radius: 6px !important;
+    }
+    .news{width: 390px !important;}
+    .body{height: 750px !important;}
+    .paernt:hover .cut{transform: scale(1,1);}
+    .paernt:hover .line{width: 70px  ;}
+}
+.btn1:hover{
+    background-color: rgb(113, 113, 113) !important;
+}
+.btn2:hover{
+    background-color: rgb(89, 199, 250) !important;
+    color: rgb(226, 226, 226) !important;
+}
+.cut2{
+    clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+}
+.paernt2{
+    background-image: linear-gradient(to right, rgb(235, 235, 235),rgb(255, 247, 247));
+}
+.btn3:hover{
+    background-color: rgb(255, 145, 145) !important;
+}
+.raernt3{
+    background-image: linear-gradient(to right, rgb(255, 255, 246),rgb(235, 235, 235));
+}
+.btn4:hover{
+    background-color: rgb(184, 169, 4) !important;
+}
+.paernt4{
+    background-image: linear-gradient(to right, rgb(235, 235, 235),rgb(249, 255, 247));
+}
+.btn5:hover{
+    background-color: rgb(73, 184, 4) !important;
+}
+.el500:hover{
+    opacity: .3;
+}
